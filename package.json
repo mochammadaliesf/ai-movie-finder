@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "playwright:codegen": "npx playwright codegen https://movie-finder-d128b.web.app/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mochammadaliesf/ai-movie-finder.git"
