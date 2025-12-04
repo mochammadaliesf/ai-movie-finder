@@ -100,17 +100,6 @@ tests/
 | QA-11012 | AI Response Matches Prompt (Valid) | P1 |
 | QA-11012 | AI Response Matches Prompt (Invalid) | P1 |
 
-## Test Tags
-
-| Tag | Description |
-|-----|-------------|
-| `@login` | Login module tests |
-| `@dashboard` | Dashboard module tests |
-| `@ai` | AI module tests |
-| `@p0` | Critical priority (smoke tests) |
-| `@p1` | High priority |
-| `@smoke` | Smoke test suite |
-
 ## Installation
 
 ```bash
@@ -142,6 +131,7 @@ The `QA-11012` test validates AI responses using a **2-out-of-3 factor rule**:
 An item passes if **2+ factors match**. The test passes if **70%+ of items pass**.
 
 Example:
+
 ```
 Prompt: "romantic film from middle-east with 60s"
 Expected: Genres=[Romance, Comedy] Year=1960-1969 Regions=[middle-east]
