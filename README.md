@@ -122,7 +122,7 @@ npx playwright test --ui
 
 ## AI Hallucination Detection
 
-The `QA-11012` test validates AI responses using a **2-out-of-3 factor rule**:
+The 'QA-11012' test validates AI responses using a **2-out-of-3 factor rule**:
 
 1. **Genre Factor** - At least one genre matches (direct or related)
 2. **Year Factor** - Release year within expected range
